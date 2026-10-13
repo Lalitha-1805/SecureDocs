@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.egg-info/
+venv/
+.venv/
+
+# Local configuration and runtime state
+.env
+.env.*
+!.env.example
+instance/
+flask_session/
+uploads/
+*.db
+*.sqlite
+*.sqlite3
+
+# Local medical data
+data/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
